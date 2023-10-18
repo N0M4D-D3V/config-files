@@ -1,6 +1,9 @@
 {
   "workbench.colorTheme": "Activate SCARLET protocol (beta)",
   "workbench.iconTheme": "sweet-vscode-icons",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
+  "terminal.integrated.fontFamily": "monospace",
   "terminal.external.linuxExec": "/bin/zsh",
   "terminal.integrated.defaultProfile.linux": "zsh",
   "[typescript]": {
@@ -12,7 +15,6 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "git.autofetch": true,
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -25,19 +27,24 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[python]": {
+    "editor.formatOnType": true
+  },
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.cursorBlinking": "expand",
   "editor.linkedEditing": true,
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "breadcrumbs.enabled": false,
   "editor.cursorSmoothCaretAnimation": "explicit",
-  "workbench.sideBar.location": "right",
   "editor.scrollbar.verticalScrollbarSize": 2,
   "editor.scrollbar.horizontalScrollbarSize": 10,
   "editor.formatOnSave": true,
   "editor.glyphMargin": false,
   "editor.overviewRulerBorder": false,
   "editor.hideCursorInOverviewRuler": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
   "window.menuBarVisibility": "toggle",
   "window.titleBarStyle": "custom"
+  "git.autofetch": true,
+  "breadcrumbs.enabled": false,
 }
