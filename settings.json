@@ -1,14 +1,11 @@
 {
-  "workbench.colorTheme": "Kaolin Light (alt)",
+  "workbench.colorTheme": "Activate SCARLET protocol (beta)",
   "workbench.iconTheme": "sweet-vscode-icons",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "terminal.integrated.fontFamily": "Fira Code",
   "terminal.external.linuxExec": "/bin/zsh",
   "terminal.integrated.defaultProfile.linux": "zsh",
-  "terminal.integrated.cursorStyle": "underline",
-  "terminal.integrated.cursorStyleInactive": "underline",
-  "terminal.integrated.cursorBlinking": true,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -49,7 +46,5 @@
   "window.menuBarVisibility": "toggle",
   "window.titleBarStyle": "custom",
   "git.autofetch": true,
-  "breadcrumbs.enabled": false,
-  "explorer.confirmDelete": false,
-  "extensions.ignoreRecommendations": true
+  "breadcrumbs.enabled": false
 }
