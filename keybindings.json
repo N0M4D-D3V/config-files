@@ -12,5 +12,15 @@
   {
     "key": "ctrl+shift+e",
     "command": "workbench.action.focusActiveEditorGroup"
+  },
+  {
+    "key": "ctrl+shift+right",
+    "command": "workbench.action.focusNextGroup",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+shift+left",
+    "command": "workbench.action.focusPreviousGroup",
+    "when": "editorFocus"
   }
 ]
