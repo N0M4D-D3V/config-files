@@ -3,24 +3,34 @@
   {
     "key": "ctrl+shift+f",
     "command": "editor.action.formatDocument",
-    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor",
   },
   {
     "key": "ctrl+shift+t",
-    "command": "workbench.action.terminal.focus"
+    "command": "workbench.action.terminal.focus",
   },
   {
     "key": "ctrl+shift+e",
-    "command": "workbench.action.focusActiveEditorGroup"
+    "command": "workbench.action.focusActiveEditorGroup",
   },
   {
     "key": "ctrl+shift+right",
     "command": "workbench.action.focusNextGroup",
-    "when": "editorFocus"
+    "when": "editorFocus",
   },
   {
     "key": "ctrl+shift+left",
     "command": "workbench.action.focusPreviousGroup",
-    "when": "editorFocus"
-  }
+    "when": "editorFocus",
+  },
+  {
+    "key": "alt+shift+left",
+    "command": "cursorWordLeftSelect",
+    "when": "textInputFocus",
+  },
+  {
+    "key": "alt+shift+right",
+    "command": "cursorWordRightSelect",
+    "when": "textInputFocus",
+  },
 ]
